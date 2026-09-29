@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/ui">
+    <file>chevron-down.svg</file>
+    <file>chevron-down-active.svg</file>
+    <file>chevron-down-disabled.svg</file>
+  </qresource>
+</RCC>

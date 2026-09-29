@@ -1,0 +1,30 @@
+# Секреты и credentials — никогда в Git
+client_secret.json
+token.json
+*.log
+__pycache__/
+.vscode/
+.venv/
+build/
+dist/
+Build_Tools/build/
+Build_Tools/dist/
+*.spec
+# канонический spec-файл сборки должен быть в репозитории
+!Build_Tools/YouTubePrivateUploader.spec
+.youtube-upload.json
+.pytest_cache/
+.ruff_cache/
+# runtime-состояние (handoff.md — каноническая отслеживаемая память проекта)
+Build_Tools/settings.json
+Build_Tools/PyCompiler_settings.json
+# тестовые файлы в корне проекта
+/video.mp4
+/thumbnail.jpg
+# собранная папка приложения (после post_build.py)
+/YouTubePrivateUploader/
+# инструменты агентов (не часть приложения)
+.agents/
+# Локальная коллекция Postman и идентификатор рабочего пространства
+/.postman/
+/postman/
